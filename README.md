@@ -1,0 +1,1 @@
+This repository demonstrates an uncommon bug in VBScript stemming from its loose typing system.  The `If` statement comparison behaves unexpectedly when comparing an integer to a floating-point number that is mathematically equal.  The `bug.vbs` file illustrates the problem, while `bugSolution.vbs` offers a solution using explicit type conversion or stricter comparison methods.
